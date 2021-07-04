@@ -32,7 +32,7 @@ export default function AppMixe() {
                     <p>  App didáctica para aprender la lengua índigena Mixe variante de la comunidad 
             de Tamazulapam Del Espiritu Santo Mixe Oax. 
             </p>
-            <a href="https://mixeweb.herokuapp.com/">Visitar</a> 
+            <a href="https://mixeweb.herokuapp.com/" target="blank">Visitar</a> 
                 </div>
                 </figure>
       

@@ -29,7 +29,7 @@ export default function Pagina() {
                <div className="capa">
                     <p>   Pagina en proceso, aprovechando la tecnología como una 
             herramienta para la fomentación de la lengua indigena Mixe.</p>
-            <a href="https://mixeweb.herokuapp.com/">Visitar</a>        
+            <a href="https://mixeweb.herokuapp.com/" target="blank">Visitar</a>        
                 </div>
                 </figure>
         

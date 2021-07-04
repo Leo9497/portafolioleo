@@ -29,11 +29,12 @@ export default function Pagina() {
                <div className="capa">
              
                     <p>Página para una Taquería </p>
-                    
+                    <a href="https://elfogon.herokuapp.com/" target="blank">Visitar</a> 
                 </div>
                 </figure>
       
-          
+                    
+        
         
          </div>
         <CardContent>
