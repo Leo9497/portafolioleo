@@ -2,9 +2,8 @@ import React from 'react';
 import {Grid, Typography} from '@material-ui/core';
 import emailjs from "emailjs-com";
 import "./Formulario.css";
-
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import {Icon} from '@material-ui/core';
-import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import EmailIcon from '@material-ui/icons/Email';
 
 
@@ -30,7 +29,7 @@ export default function Contactame() {
  
 
   return (
-    <div className="App"> 
+    <div className="App" id="contact"> 
       <header className="App-header">
 
       <Grid container >
@@ -64,26 +63,28 @@ export default function Contactame() {
       </Grid>
       
       </header>
-
+<div>
       <Typography  gutterBottom variant="h5" component="h2">
             <box className="text" >
             Leobardo Antunez Cayetano</box>
           </Typography>
-                <Typography className="color"  gutterBottom variant="h6" component="h2">
-            <Icon >
-            <WhatsAppIcon />
+                
+           
+            <box className="columna" >
+            <a href="https://www.linkedin.com/in/leobardo-antunez-cayetano-3746631aa/" target="blank">
+            <Icon className="iconos" >
+            <LinkedInIcon fontSize="large" />
             </Icon>
-            <box className="text" >
-             951-168-18-60</box>
-          </Typography>
-               
-            <Typography className="color"  gutterBottom variant="h6" component="h2">
-            <Icon >
-            <EmailIcon />
+              </a>
+              
+              <a href="mailto:leo_mixe@hotmail.com">
+            <Icon className="iconos">
+            <EmailIcon fontSize="large"/>
             </Icon>
-            <box className="text" >
-            leo_mixe@hotmail.com</box>
-          </Typography>
+              </a></box>
+         
+             </div>
+           
     </div>
   );
 }

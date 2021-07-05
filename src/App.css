@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  
 }
 
 div {
-  background-image: url("fondo.png");
+  background-image: url("fond.png");
 }
+
 .uno {
   font-size : clamp(1rem, 7vw, 1.6rem);
 }
@@ -40,8 +42,16 @@ div {
   font-size : clamp(.5rem, 5.2vw, 1.5rem);
  }
 
+ .iconos {
+  color: white;
+  margin: 10px;
+ }
 
-
+ .columna {
+  flex: 40%;
+  max-width: 40%;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -121,3 +131,5 @@ div {
     
   }
 }
+
+

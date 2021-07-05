@@ -25,7 +25,7 @@ function Portafolio() {
 
   return (
     
-      <header className="App-header  ">
+      <header className="App-header  "  id="portafolio">
       <Grid container >
       <Grid item xs={12}>
           <Paper className={classes.paper}><Typography component="div" >
@@ -49,13 +49,14 @@ function Portafolio() {
         <Grid item xs={12}sm={3}>
           <Paper className={classes.paper}><Pagina/></Paper>
         </Grid>
+        <Grid item xs={12} sm={3} >
+          <Paper className={classes.paper}><Arduino/></Paper>
+        </Grid>
         <Grid item xs={12}sm={3}>
           <Paper className={classes.paper}><Tacos/></Paper>
         </Grid>
 
-        <Grid item xs={12} sm={3} >
-          <Paper className={classes.paper}><Arduino/></Paper>
-        </Grid>
+        
       
       
         

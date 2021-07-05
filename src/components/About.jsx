@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 function About() {
     const classes = useStyles();
     return (
-    <div className="App ">
+    <div className="App "  id="about">
         <header className="App-header  ">
         <Grid container   >
         
@@ -37,7 +37,7 @@ function About() {
            Sobre mí
           </Box></Typography>
           <Box  p={1} letterSpacing={1}   >
-          <p  className="text" align="justify" >Soy Ingeniero en Telemática (informática con telecomunicaciones),
+          <p  className="text"  >Soy Ingeniero en Telemática (informática con telecomunicaciones),
             me enfoco al desarrolllo de software, tanto para apps moviles, desarrollo web y 
             programación de  microcontroladores, soy capaz de adaptarme a cualquier circunstancia y dar 
             siempre lo mejor de mí en cualquier proyecto.</p>

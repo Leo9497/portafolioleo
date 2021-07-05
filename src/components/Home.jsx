@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 function Home() {
   const classes = useStyles();
   return (
-    <div className="App ">
+    <div className="App " id="home">
       <header className="App-header">
       <Box  
         justifyContent="center"

@@ -7,14 +7,14 @@ import Contactame from "./Contactame";
 import Portafolio from "./Portafolio";
 
 function NavBar(props) {
-
+  
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const about = useRef(null);
   const inicio = useRef(null);
   const portafolio = useRef(null);
   const contact = useRef(null);
- 
+
 
 
   const gotoAbout = () =>
@@ -42,7 +42,7 @@ function NavBar(props) {
       });
  
   
-
+    
 
   return (
      
@@ -52,8 +52,8 @@ function NavBar(props) {
         <NavLink exact to="/" className="nav-logo">
             Leobardo Antunez Cayetano
           </NavLink>
-
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+        
+          <ul className={click ? "nav-menu active" : "nav-menu"} >
             <li className="nav-item">
               <NavLink
                 exact
@@ -99,9 +99,15 @@ function NavBar(props) {
               </NavLink>
             </li>
           </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+        
+          <div className="nav-icon" onClick={handleClick}  >
+            
+            <i className={click  ?  "fas fa-times" : "fas fa-bars"}></i>
+          
+           
+
           </div>
+          
         </div>
       </nav>
       
