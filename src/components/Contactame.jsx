@@ -29,7 +29,7 @@ export default function Contactame() {
  
 
   return (
-    <div className="App" id="contact"> 
+    <div className="App" id="contacto"> 
       <header className="App-header">
 
       <Grid container >

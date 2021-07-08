@@ -49,13 +49,13 @@ function Portafolio() {
         <Grid item xs={12}sm={3}>
           <Paper className={classes.paper}><Pagina/></Paper>
         </Grid>
-        <Grid item xs={12} sm={3} >
-          <Paper className={classes.paper}><Arduino/></Paper>
-        </Grid>
+       
         <Grid item xs={12}sm={3}>
           <Paper className={classes.paper}><Tacos/></Paper>
         </Grid>
-
+        <Grid item xs={12} sm={3} >
+          <Paper className={classes.paper}><Arduino/></Paper>
+        </Grid>
         
       
       

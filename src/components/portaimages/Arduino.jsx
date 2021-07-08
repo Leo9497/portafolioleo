@@ -25,7 +25,7 @@ export default function Cards() {
       <CardActionArea>
       <div className="contenedor">
                 <figure>
-                <img className="columna" src="/images/carrito.jpg" alt="imagen" />
+                <img className="columna" src="/images/carrito.png" alt="imagen" />
                <div className="capa">
                     <p>Proyecto de práctica para
             Programación de microcontroladores de componentes arduino. </p>
