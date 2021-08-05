@@ -38,7 +38,7 @@ function About() {
           </Box></Typography>
           <Box  p={1} letterSpacing={1}   >
           <p  className="text"  >Soy Ingeniero en Telemática (informática con telecomunicaciones),
-            me enfoco al desarrolllo de software, tanto para apps moviles, desarrollo web y 
+            me enfoco al desarrollo de software, tanto para apps moviles, desarrollo web y 
             programación de  microcontroladores, soy capaz de adaptarme a cualquier circunstancia y dar 
             siempre lo mejor de mí en cualquier proyecto.</p>
         
